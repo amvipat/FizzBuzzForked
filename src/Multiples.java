@@ -1,7 +1,7 @@
 public class Multiples {
     public static void main(String[] args) {
         int count = 0;
-        for (int i = 1; i < 10; i++){
+        for (int i = 1; i < 1000; i++){
             count = divisibleByThreeOrFive(i, count);
         }
         System.out.println("There are " + count + " divisible by 3 and 5.");
